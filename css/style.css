@@ -33,9 +33,9 @@ h1{
 }
 
 .gradient{
-    background:linear-gradient(100deg, #1b262c, #0f4c75, #00b7c2);
+    background:linear-gradient(45deg, #1b262c, #0f4c75, #3282b8, #bbe1fa);
     background-size: 300% 300%;
-    animation:color 8s ease infinite;
+    animation:color 10s ease infinite;
 }
 
 @keyframes color{
@@ -43,10 +43,13 @@ h1{
         background-position: 0% 50%;
     }
 
+    
+
     50%{
         background-position: 100% 0%;
     }
 
+    
     100%{
         background-position: 0% 50%;
     }
