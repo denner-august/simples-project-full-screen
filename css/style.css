@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;  
+}
+
+a{
+    color:white;
+    text-decoration:none;
+    margin-right: 30px;
+}
+
+.menu{
+    width: 100%;
+    padding-top: 30px;
+    text-align: right;
+
+}
+.menu ul li {
+    display: inline-block;
+    padding: 0px 20px;
+      
+}
+
+h1{ 
+    font-family: monospace;
+    margin-left: 37%;
+    width:300px;
+    margin-top: 300px;
+    padding: 15px;
+    border:1px solid white;
+    text-align: center;
+    color: white;
+}
+
+.gradient{
+    background:linear-gradient(100deg, #1b262c, #0f4c75, #00b7c2);
+    background-size: 300% 300%;
+    animation:color 8s ease infinite;
+}
+
+@keyframes color{
+    0%{
+        background-position: 0% 50%;
+    }
+
+    50%{
+        background-position: 100% 0%;
+    }
+
+    100%{
+        background-position: 0% 50%;
+    }
+}
