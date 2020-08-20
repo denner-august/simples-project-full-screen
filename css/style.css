@@ -10,7 +10,6 @@ a{
 
 body{
     overflow: hidden;
-
 }
 
 .menu{
@@ -26,7 +25,7 @@ body{
 }
 
 ul li a{
-    padding: 15px;
+    padding: 10px;
     text-transform: uppercase;
     letter-spacing: 5px;
     transition: 0.5s;
@@ -35,7 +34,6 @@ ul li a{
 
 ul:hover li a{
     opacity: 0;
-
 }
 
 ul li a:hover{
